@@ -1,0 +1,9 @@
+.sidebar {
+  left: 100%;
+  background-color: aqua;
+  width: 240px;
+  height: 100vh;
+}
+.active {
+  left: 0%;
+}
