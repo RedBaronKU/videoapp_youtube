@@ -1,4 +1,9 @@
 .nav_right {
   display: flex;
-  font-size: 1.8rem;
+  align-items: center;
+}
+.right_icon {
+  font-size: 2rem;
+  padding: 1px;
+  margin-right: 5px;
 }

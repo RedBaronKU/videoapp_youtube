@@ -1,0 +1,12 @@
+.maintag {
+  margin-left: 3%;
+}
+.sidevisible {
+  margin-left: 240px;
+  transition: 789ms;
+}
+.videolist {
+  width: 100%;
+  border: 1px solid blue;
+  height: 90vh;
+}

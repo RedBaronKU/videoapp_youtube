@@ -1,36 +1,63 @@
 .navbar_logo {
   object-fit: contain;
-  height: 20px;
-  margin-left: 5%;
-  border: 1px solid blue;
+  height: 25px;
+  margin-left: 20%;
 }
-.search_div {
+.navi {
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+/* .search_div {
   margin-left: auto;
-  margin-right: auto;
-}
+} */
 .sideBarToggler {
   font-size: 1.3rem;
-  margin-left: 1.7%;
-  margin-right: 1.7%;
-  border-radius: 50%;
-  border: 1px solid red;
-  transition: 1200ms;
+  border-radius: 40%;
+  transition: 700ms;
   padding: 2px;
   align-items: center;
 }
-.nav_right {
-  margin-right: 1.7%;
+.header_1 {
+  display: flex;
+  align-items: center;
 }
+.user_nav_right {
+  display: flex;
+  align-items: center;
+}
+/* @media only screen and (max-width: 1060px) {
+  .user_nav_right {
+    margin-left: 12%;
+  }
+} */
 .sideBarToggler:hover {
   background-color: lightgray;
   animation: ease-out;
 }
-.postAvatar {
+/* .postAvatar {
   border: 1px solid orangered;
   margin-right: 1.7%;
+} */
+.buty {
+  /*display: flex;*/
 }
-
-.navbar {
+.search_div {
+  display: flex;
+}
+.search_div > input {
+  flex: 1;
+}
+@media only screen and (max-width: 700px) {
+  .search_div {
+  }
+  .Search {
+    display: none;
+  }
+  .Search:focus {
+  }
+}
+.navi {
   width: 100%;
   border: 1px solid rgb(209, 207, 207);
   box-shadow: 0.5px 0.1px rgb(196, 195, 195);

@@ -1,44 +1,45 @@
 import * as aiIcons from 'react-icons/ai'
 import * as HiIcons from 'react-icons/hi'
 import * as BiIcons from 'react-icons/bi'
+import React from 'react'
 export const Sidedata=[
     {
-        icon: aiIcons.AiFillHome,
+        icon: <aiIcons.AiFillHome/>,
         title: 'Home',
         path: '/'
     },
     {
-        icon: aiIcons.AiFillCompass,
+        icon: <aiIcons.AiFillCompass/>,
         title: 'Compass',
-        path: '/'
+        path: '/compass'
     },
     {
-        icon: aiIcons.AiFillYoutube,
+        icon: <aiIcons.AiFillYoutube/>,
         title: 'Subscription',
-        path: '/'
+        path: '/subscription'
     },
     {
-        icon: HiIcons.HiLibrary,
+        icon: <HiIcons.HiLibrary/>,
         title: 'Library',
-        path: '/'
+        path: '/library'
     },
     {
-        icon: BiIcons.BiHistory,
+        icon: <BiIcons.BiHistory/>,
         title: 'History',
-        path: '/'
+        path: '/history'
     },
     {
-        icon: HiIcons.HiLibrary,
+        icon: <HiIcons.HiLibrary/>,
         title: 'Video',
-        path: '/s'
+        path: '/videos'
     },
     {
-        icon: aiIcons.AiFillClockCircle,
+        icon: <aiIcons.AiFillClockCircle/>,
         title: 'Watch Later',
-        path: '/'
+        path: '/watchlater'
     },
     {
-        icon: aiIcons.AiFillLike,
+        icon: <aiIcons.AiFillLike/>,
         title: 'Liked Videos',
         path: '/'
     }
