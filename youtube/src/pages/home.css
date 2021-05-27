@@ -7,6 +7,28 @@
 }
 .videolist {
   width: 100%;
-  border: 1px solid blue;
   height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.video_card {
+  width: 25%;
+  margin-bottom: 40px;
+  min-width: 250px;
+}
+.video_thumbnail {
+  width: 90%;
+  height: 140px;
+  margin-bottom: 3px;
+}
+.video_info {
+  display: flex;
+  padding-right: 30px;
+}
+.video_text {
+  margin-left: 15px;
+}
+.video_text > h4 {
+  font-size: 8px;
+  margin-bottom: 5px;
 }
